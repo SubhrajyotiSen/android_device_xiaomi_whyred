@@ -236,3 +236,6 @@ persist.vendor.radio.data_con_rprt=1
 
 #lct liuxuan add the dom ignore time
 persist.vendor.radio.ignore_dom_time=15
+
+# Make data selection stick in dual SIM devices
+persist.radio.aosp_usr_pref_sel=true
