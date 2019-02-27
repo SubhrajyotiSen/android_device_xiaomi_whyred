@@ -1,4 +1,5 @@
 #============= hal_fingerprint_default ==============
+typeattribute hal_fingerprint_default data_between_core_and_vendor_violators;
 allow hal_fingerprint_default firmware_file:file { getattr open read };
 allow hal_fingerprint_default firmware_file:dir { getattr search };
 allow hal_fingerprint_default storage_file:dir { getattr search };
