@@ -1396,6 +1396,7 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-china.conf
 vendor/etc/thermal-engine-india.conf
 vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/bin/thermal-engine
 vendor/lib/libthermalfeature.so
