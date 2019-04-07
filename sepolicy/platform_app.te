@@ -1,0 +1,5 @@
+#============= platform_app ==============
+allow platform_app vendor_default_prop:file { getattr open read };
+allow platform_app sysfs_leds:dir search;
+allow platform_app sysfs_graphics:dir search;
+allow platform_app sysfs_graphics:file read;

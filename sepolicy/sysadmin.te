@@ -1,0 +1,5 @@
+dontaudit sensors sensors:capability {sys_admin};
+dontaudit netutils_wrapper netutils_wrapper:capability {sys_admin};
+dontaudit netmgrd netmgrd:capability {sys_admin};
+dontaudit vdc vdc:capability {sys_admin};
+
