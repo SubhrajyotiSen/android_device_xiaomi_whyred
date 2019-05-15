@@ -1,0 +1,3 @@
+allow priv_app { firmware_file bt_firmware_file }:filesystem getattr;
+allow priv_app sysfs:{ dir file } { read open };
+allow priv_app { proc proc_modules }:file { getattr open read };
